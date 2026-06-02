@@ -1,1 +1,5 @@
 # mermaid-test
+
+```mermaid
+  info
+```
