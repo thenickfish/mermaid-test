@@ -5,8 +5,15 @@
 ```
 
 ```mermaid
-flowchart TD
-    A["`[test link](https://google.com) markdown
-`"]
+---
+config:
+  htmlLabels: false
+---
+flowchart LR
+    markdown["`This **is** _Markdown_`"]
+    newLines["`Line1
+    Line 2
+    Line 3`"]
+    markdown --> newLines
 
 ```
